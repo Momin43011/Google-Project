@@ -1,0 +1,126 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+section{
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+/* -----Header part start-----*/
+section header{
+  position: absolute;
+  right: 0px;
+  top: 0px;  
+}
+section header ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section header ul li{
+  list-style: none;
+  padding-right: 8px;
+  padding-left: 8px; 
+  cursor: pointer; 
+  font-size: 14px;
+}
+section header ul li a{
+  text-decoration: none;
+  color: #000;
+}
+section header ul li input{
+  background-color: rgb(65, 65, 245);
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+/* -----Header part End-----*/
+
+/* -----Main part Start-----*/
+section .main{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main .searchbox{
+  position: relative ;
+  top: 10px;
+  width: 100%;
+}
+.main .searchbox .text input{
+  width: 97%;
+  padding: 12px;
+  padding-left: 38px;
+  padding-right: 44px;
+  position: relative;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  font-size: 15px;
+}
+.main .searchbox .icon{
+  position: absolute;
+  top: 0px;
+  padding: 10px 14px;
+  display: flex;
+  width: 106%;
+  justify-content: space-between;
+  pointer-events: none;
+}
+.main .button{
+  margin-top: 20px;
+}
+.main .button button{
+  font-size: 17px;
+  padding: 12px 15px ;
+  border: none;
+  cursor: pointer;
+  margin: 0px 4px;
+}
+.main .button button:hover{
+  border-radius: 5px;
+}
+.main .lang{
+  margin-top: 10px;
+  font-size: 17px;
+}
+/* -----Main part End-----*/
+
+/* -----Footer part Start-----*/
+footer{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  border-top: 1px solid rgba(0, 0, 0, 0.05) ;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer ul{
+  display: flex;
+}
+footer ul li{
+  list-style: none;
+  padding-right: 15px ;
+  font-size: 15px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #000;
+}
+/* -----Footer part End-----*/
